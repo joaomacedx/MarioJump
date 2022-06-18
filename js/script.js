@@ -23,6 +23,8 @@
              mario.src='images/game-over.png';
              mario.style.width = '75px';
              mario.style.marginLeft='50px';
+
+             clearInterval(loop);
          }
  },10);
 
