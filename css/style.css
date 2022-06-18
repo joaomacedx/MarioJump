@@ -29,6 +29,7 @@
 .clouds {
      width: 550px ;
      position: absolute;
+     animation: clouds-animation 10s infinite linear;
 }
 
 .jump{
@@ -61,4 +62,14 @@
      100%{
          bottom: 0;
     }
+}
+
+@keyframes clouds-animation {
+     from{
+         right: 0;
+     }
+     
+     to{
+         right: 100%;
+     } 
 }
